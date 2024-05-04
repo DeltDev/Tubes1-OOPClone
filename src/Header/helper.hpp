@@ -1,0 +1,8 @@
+#ifndef HELPER_HPP
+#define HELPER_HPP
+#include <bits/stdc++.h>
+
+using namespace std;
+vector<string> StringToStringList(string inputString); //untuk melakukan stripping dari string yang mengandung spasi
+bool isAllDigits(const string &str); //untuk mengecek apakah semua string digit atau bukan
+#endif
